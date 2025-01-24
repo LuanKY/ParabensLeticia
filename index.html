@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-BR"></html>
+<html lang="pt-BR">
 
 <head>
 	<title>Feliz Aniversário!!! :)</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+	<link rel="shortcut icon" type="image/png" href="Images/cake.png" />
 	<meta charset="UTF-8" />
 	<meta name="description" content="Happy Birthday">
 	<meta name="robots" content="index, follow" />
 	<meta name="keywords" content="Birthday, Happy">
-	<!-- Start of Facebook Meta -->
 	<meta property="og:type" content="E-Greeting" />
-	<meta property="og:image" content="favicon.ico" />
 	<meta property="og:description" content="Wish you a very Happy Birthday">
-	<!-- End of Facebook Meta Tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -22,6 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="loading.css">
 	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet/less" href="cake.less">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
     <style>
         .bulb-holder .bulb {
@@ -31,9 +29,15 @@
             display: none; 
             width: 35%; 
         }
-        .message {
-            margin-top: 20px; 
-        }
+
+		@keyframes blink {
+			50% {
+				border-color: transparent;
+			}	
+		}
+		body {
+			font-family: "Poppins", sans-serif;
+		}
     </style>
 </head>
 
@@ -45,26 +49,26 @@
 			Você está convidado para um momento divertido.
 		</audio>
 		<div class="balloons text-center" id="b1">
-			<h4 style="color:#f8b704;">Um</h4>
+			<h4 style="color:#f8b704;">Te</h4>
 		</div>
 		<div class="balloons text-center" id="b2">
-			<h4 style="color:#152ae0;">Grande</h4>
+			<h4 style="color:#152ae0;">Desejo</h4>
 		</div>
 		<div class="balloons text-center" id="b3">
-			<h4 style="color:#f50e0e;">E Feliz</h4>
+			<h4 style="color:#f50e0e;">Alegria</h4>
 		</div>
 		<div class="balloons text-center" id="b4">
-			<h4 style="color:#eff706;">Aniversário</h4>
+			<h4 style="color:#eff706;">Amor</h4>
 		</div>
 		<div class="balloons text-center" id="b5">
-			<h4 style="color:#705ef6;">Meu Parça</h4>
+			<h4 style="color:#705ef6;">Saúde</h4>
 		</div>
 		<div class="balloons text-center" id="b6">
-			<h4 style="color:#6cc712;">Tudo De Bom</h4>
+			<h4 style="color:#6cc712;">Sucesso</h4>
 		</div>
 		<div class="balloons text-center" id="b7">
-			<h4 style="color:#0f962c;">Nome</h4>
-		</div>
+			<h4 style="color:#0f962c;">Letícia</h4>
+		</div>		
 
 		<img src="Images/Balloon-Border.png" width="100%" class="balloon-border">
 
@@ -91,7 +95,6 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<img src="Images/HBD Banner.webp" class="bannar" alt="Banner de Feliz Aniversário">
 					<img src="Images/HBD 2 Banner.webp" class="bannar" alt="Banner de Feliz Aniversário 2">
 				</div>
 			</div>
@@ -114,25 +117,6 @@
 					  <div class="bizcocho"></div>
 					</div>
 				</div>
-			</div>
-			<div class="row message">
-				<div class="col-md-12">
-				<p>Fala, meu mano!</p>
-				<p>Hoje é aquele dia especial,</p>
-				<p>mais um ano de vida, mais um capítulo na história.</p>
-				<p>E mano, vou te dizer,</p>
-				<p>esse dia é só seu, então bora fazer valer!</p>
-				<p>Agradeço por todas as resenhas, pelas conversas,</p>
-				<p>e por ser aquele brother firmeza que sempre chega junto.</p>
-				<p>Desejo que sua caminhada seja sempre leve,</p>
-				<p>que seus sonhos virem realidade,</p>
-				<p>e que você continue voando alto, igual águia no topo do mundo.</p>
-				<p>Que nunca falte vibe boa e motivos pra sorrir,</p>
-				<p>porque você merece só o melhor, sempre.</p>
-				<p>Tamo junto, meu parceiro!</p>
-				<p>Finalmente...</p>
-				<p>Permita-me estender meus desejos mais uma vez,</p>
-				<p>um aniversário profundamente feliz para você!</p>
 			</div>
 		</div>
 		

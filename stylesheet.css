@@ -1,6 +1,10 @@
 body {
-	/*background-color: #FFDAB9;	*/
-	background-color: #000;
+	/*background-color: #FFCBDB;	*/
+	/* background-image: url('images/background2.png');
+	background-size: auto; 
+	background-repeat: repeat; 
+	background-position: contain; */
+	background-color: #212121;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
 	-o-transition:background-color linear 5s;
@@ -12,7 +16,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #FFCBDB;
 	
 }
 .peach-after {
@@ -25,90 +29,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFC2D3;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFD5E3;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFC2D3;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFD5E3;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFC2D3;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFD5E3;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFC2D3;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFD5E3;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFC2D3;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFD5E3;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFCBDB;
 	}
 }
 
@@ -969,7 +973,7 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
+	max-width: 60%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1056,7 +1060,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
