@@ -7,13 +7,13 @@ $('document').ready(function(){
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
-			$('#b11').animate({top:240, left: vw-350},500);
-			$('#b22').animate({top:240, left: vw-250},500);
-			$('#b33').animate({top:240, left: vw-150},500);
-			$('#b44').animate({top:240, left: vw-50},500);
-			$('#b55').animate({top:240, left: vw+50},500);
-			$('#b66').animate({top:240, left: vw+150},500);
-			$('#b77').animate({top:240, left: vw+250},500);
+			$('#b11').animate({top:180, left: vw-350},500);
+			$('#b22').animate({top:180, left: vw-250},500);
+			$('#b33').animate({top:180, left: vw-150},500);
+			$('#b44').animate({top:180, left: vw-50},500);
+			$('#b55').animate({top:180, left: vw+50},500);
+			$('#b66').animate({top:180, left: vw+150},500);
+			$('#b77').animate({top:180, left: vw+250},500);
 		});
 
 	$('#turn_on').click(function(){
@@ -24,7 +24,7 @@ $('document').ready(function(){
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').delay(4000).promise().done(function(){
 			$('#play').click();
 		});
 	});
@@ -39,13 +39,14 @@ $('document').ready(function(){
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
-		$(this).fadeOut('slow').delay(7000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#bannar_coming').click();
 		});
 	});
 
 	$('#bannar_coming').click(function(){
 		$('.bannar').addClass('bannar-come');
+		$('.celebrate-img').addClass('celebrate-img-come');
 		$(this).fadeOut('slow').delay(7000).promise().done(function(){
 			$('#balloons_flying').click();
 		});
@@ -150,13 +151,13 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: vw-350},500);
-		$('#b22').animate({top:240, left: vw-250},500);
-		$('#b33').animate({top:240, left: vw-150},500);
-		$('#b44').animate({top:240, left: vw-50},500);
-		$('#b55').animate({top:240, left: vw+50},500);
-		$('#b66').animate({top:240, left: vw+150},500);
-		$('#b77').animate({top:240, left: vw+250},500);
+		$('#b11').animate({top:180, left: vw-350},500);
+		$('#b22').animate({top:180, left: vw-250},500);
+		$('#b33').animate({top:180, left: vw-150},500);
+		$('#b44').animate({top:180, left: vw-50},500);
+		$('#b55').animate({top:180, left: vw+50},500);
+		$('#b66').animate({top:180, left: vw+150},500);
+		$('#b77').animate({top:180, left: vw+250},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(4000);
 		$(this).fadeOut('slow').delay(4000).promise().done(function(){
